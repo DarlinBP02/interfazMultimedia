@@ -1,0 +1,74 @@
+body{
+    background-color: white;
+}
+.head {
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 82px;
+    background: #0048ff;
+    position: flex;
+    width: 100%;
+}
+.text{
+    width:650px; 
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: #d8d8d8;
+    padding: 20px;
+
+    
+}
+.logo{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.Solici {
+    display: flex;
+    margin-right: 100px;
+}
+.Solici a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+.navbar a {
+    display: flex;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.button2{
+    margin-top: 0px;
+    margin-left: 1000px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid;
+    border-color:rgb(150, 24, 24);
+    background: rgb(150, 24, 24);
+    border-radius: 25px;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    outline: none;
+}
+.button2:hover{
+    border-color: rgb(0, 0, 0);
+    transition: -5s;
+}

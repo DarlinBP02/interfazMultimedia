@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="imprimirpaciente.css">
+    <title>Solicitud Paciente</title>>
+</head>
+<body>
+  <div class="head">
+    <!--<div class="logo"> -->
+        <a href=""><img src="./img/logo.png" alt="logo iess" width="35%" height="30%"></a>
+    <!--</div>-->
+    <nav class="Solici">
+        <a href="">Solicitud de Pacientes</a>
+    </nav>
+
+  </div>
+  <div class="text">
+    <thead>
+        <tr><hr>
+          <th> <b>CODIGO GENERADO    13-CHV 30/09/2022 SERVICIOS MEDICOS ANGIO MANABI</b>  </th>              
+        <hr></tr>
+      </thead>
+      <table>
+          <tr>
+            <td> <b>APELLIDOS:</b>  Loor Flores<br>
+                <b> NOMBRE: </b> Felipe Carlos<br>
+                 <b>RELACION CON EL AFILIADO:</b>  Titular<br>
+                 <b>CEDULA: </b> 1319985645	<br>
+                 <b>SEXO: </b> Masculino <br>
+                 <b>EDAD: </b> 35 AÑOS<br><br>
+                  <hr>
+      
+              </td>
+              
+          </tr>
+          <tr>
+              <td>
+                Diagnostico Principal y Codigo: CIE 10:1200-Angina Inestable<br>
+                Diagnostico Secundario y Codigo: CIE10<br>
+                Diagnostico Terciario y codigo: CIE 10:159-Insuficienciencia Cardiaca no especificada<br><br>
+                <hr>
+      
+              </td>
+          </tr>
+          <tr>
+              <td>Servicio solicitado con su respectivo código: 10 Valoración y tratamiento integral para Hemodinamia<br>
+                  Sustento de la solicitud: Falta de profesionales en el Hospital IESS Sto. Dgo, seg[un acuerdo Ministerial 0091<br>
+                  Institucion que deriva/Remite: Hospital IESS Santo Domingo<br>
+                  Profesional que deriva o remite: Dra Otilia Navia<br>
+                  Institucion que recibe y hace la solicitud: <br> 
+                  Profesional que acepta la derivación: <br>
+                  Funcionario que solicita: 13CVH-CVAV Lic. Elizabeth Mina<br><br> 
+                  <hr>
+      
+              </td> 
+          </tr>
+          </table>
+  </div>
+  
+    <button type="submit" class= "button" onclick=validar()>Imprimir<br></button>
+  <br><br>
+    <button type="submit" class= "button2" onclick=regresar()>Regresar</button><br><br><br>
+
+
+  <script>
+    function regresar(){
+            window.location.href='gestionpacientes.html'
+        }
+
+    function validar(){
+          window.print();
+      }
+  </script>
+</body>
+</html>

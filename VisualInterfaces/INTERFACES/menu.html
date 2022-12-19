@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <title>Menu Principal</title>
+</head>
+<body>
+    <div class="head">
+
+        <!--<div class="logo"> -->
+            <a href="menu.html"><img src="./img/logo.png" alt="logo iess" width="35%" height="30%"></a>
+        <!--</div>-->
+        <nav class="navbar">
+            <a href="">Inicio</a>
+        </nav>
+    </div>
+    <headers>
+        <center><h2 class="title">MENÚ PRINCIPAL</h2></center>
+    </header>
+    <div class="head2">
+        <nav>
+            <a href="menu.html"><img src="./img/menu.png"></a><br>
+            <center><br><button type="submit" class="nav" onclick= operador()>- Operador</button><br>
+            <br><button type="submit" class="nav" onclick= medico()>- Médico</button><br>
+            <br><button type="submit" class="nav" onclick= clinica()>- Clínica</button><br></center>
+        </nav>
+    </div>
+    <script>
+        function operador(){
+            window.location.href='gestionsistema.html'
+        }
+        function medico(){
+            window.location.href='gestionpacientes.html'
+        }
+        function clinica(){
+            window.location.href='registroclinica.html'
+        }
+    </script>
+</body>
+</html>

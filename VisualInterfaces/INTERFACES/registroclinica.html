@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registroclinica.css">
+    <title>Registro de Clínicas</title>
+</head>
+<body>
+    <div class="head">
+
+    <!--<div class="logo"> -->
+        <a href="registroclinica.html"><img src="./img/logo.png" alt="logo iess" width="25%" height="30%"></a>
+    <!--</div>-->
+    <nav class="navbar">
+        <div>
+            <a href="menu.html">Inicio</a>
+        </div>
+        <a href="">Administrador</a>
+    </nav>
+    </div>
+    <input class="INPUT-1" type="text" placeholder="Nombre de la clínica">
+    <div class="Data-Clinica">
+        <h2 class="h2-1">Datos de la clínica</h2><br>
+        <div class="input-nivel">
+            <label for="nivel">Nivel:</label>
+            <input type="text" name="" id="nivel">
+        </div>
+        <div class="input-direccion">
+            <label for="direccion">Dirección:</label>
+            <input type="text" name="" id="direccion">
+        </div>
+        <br>
+        <div class="input-correo">
+            <label for="Correo">Correo Electrónico de la clínica:</label>
+            <input type="email" name="" id="Correo">
+        </div>
+        <br>
+        <div class="input-phone">
+            <label for="phone">Teléfono:</label>
+            <input type="number" name="" id="phone" maxlength="10">
+        </div>
+        <br>
+        <input class="Submit" type="submit" name="" value="TRABAJADORES Y ESPECIALIDADES" onclick=inicio()>
+        <br>
+        <div class="Trabajador-1">
+            <img src="https://static.vecteezy.com/system/resources/previews/007/033/146/non_2x/profile-icon-login-head-icon-vector.jpg" alt="">
+            <P>Dr. Torres</P>
+            <p>Especialista en cirugia</p>
+        </div>
+        <div class="Trabajador-2">
+            <img src="https://static.vecteezy.com/system/resources/previews/007/033/146/non_2x/profile-icon-login-head-icon-vector.jpg" alt="">
+            <P>Dra. Navia</P>
+            <p>Especialista en Dermotología</p>
+        </div>
+        <div class="Trabajador-3">
+            <img src="https://static.vecteezy.com/system/resources/previews/007/033/146/non_2x/profile-icon-login-head-icon-vector.jpg" alt="">
+            <P>Dr. Ormaza</P>
+            <p>Especialista en Cardiología</p>
+        </div>
+        <div class="Trabajador-4">
+            <img src="https://static.vecteezy.com/system/resources/previews/007/033/146/non_2x/profile-icon-login-head-icon-vector.jpg" alt="">
+            <P>Dr. Toala</P>
+            <p>Especialista en Anatomía</p>
+        </div>
+    </div>
+    <script>
+        function inicio(){
+            window.location.href='registromedico.html'
+        }
+    </script>
+</body>
+</html>

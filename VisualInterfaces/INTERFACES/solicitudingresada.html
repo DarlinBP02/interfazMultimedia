@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="solicitudingresada.css">
+    <title>Solicitud Paciente</title>>
+</head>
+<body>
+  <div class="head">
+    <!--<div class="logo"> -->
+        <a href=""><img src="./img/logo.png" alt="logo iess" width="35%" height="30%"></a>
+    <!--</div>-->
+    <nav class="Solici">
+        <a href="">Solicitud de Pacientes</a>
+    </nav>
+    <nav class="navbar">
+        <a href="">Inicio</a>
+    </nav>
+  </div>
+  <headers>
+    <h2 class="title">DATOS PACIENTE</h2>
+  </header>
+    <table>
+    <tr>
+        <td>APELLIDOS: <input type="text" name="" id="name" size="20px"><br>
+            NOMBRE: <input type="text" name="" id="name"><br>
+            RELACION CON EL AFILIADO: <input type="text" name="" id="name"><br>
+            CEDULA: <input type="text" name="" id="name"><br>
+            SEXO: <input type="text" name="" id="name"> <br>
+            EDAD:<input type="text" name="" id="name"><br><br>
+        </td>
+    </tr>
+    <tr>
+       
+        <td><h2>DIAGNOSTICO Y RELACIÓN</h2>
+          Diagnostico Principal y Codigo: <input type="text" name="" id="name"><br>
+          Diagnostico Secundario y Codigo: <input type="text" name="" id="name"><br>
+          Diagnostico Terciario y codigo: <input type="text" name="" id="name"><br><br>
+        </td>
+    </tr>
+    <tr>
+        <td><H2>DATOS SOLICITUD</H2>
+            Servicio solicitado con su respectivo código:<input type="text" name="" id="name"> <br>
+            Sustento de la solicitud: <input type="text" name="" id="name"><br>
+            Institucion que deriva/Remite: <input type="text" name="" id="name"><br>
+            Profesional que deriva o remite:<input type="text" name="" id="name"><br>
+            Institucion que recibe y hace la solicitud:<input type="text" name="" id="name"> <br> 
+            Profesional que acepta la derivación: <input type="text" name="" id="name"><br>
+            Funcionario que solicita: <input type="text" name="" id="name"><br><br> 
+        </td> 
+    </tr>
+    </table>
+    <button type="submit" class= "button" onclick=adjuntar()>Insertar</button>.pdf<br>
+    <br><button type="submit" class= "button1" onclick=aceptar()>Guardar</button>
+    <button type="submit" class= "button2" onclick=enviar()>Enviar</button><br><br><br>
+
+  <script>
+      function adjuntar(){
+          //window.location.href='menu.html'
+      }
+      function aceptar(){
+          alert("Sus datos han sido guardados correctamente.");
+      }
+      function enviar(){
+          window.location.href='mensaje.html'
+      }
+  </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registro Médicos</title>
+        <img src="logoo.png" alt="" width="100px" position=right>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <link rel="stylesheet" href="registromedico.css">
+    </head>
+    <body>
+        <div class="head">
+
+            <!--<div class="logo"> -->
+                <a href="registromedico.html"><img src="./img/logo.png" alt="logo iess" width="35%" height="30%"></a>
+            <!--</div>-->
+    
+            <nav class="navbar">
+                <a href="menu.html">Inicio</a>
+            </nav>
+    
+        </div>
+        <div class="formulario">
+            
+            <h1>REGISTRAR MÉDICOS</h1>
+            <input type="submit" value="GUARDAR"  id="botonn" onclick=registro()><br><br>
+           <form method="post">
+                <div class="username">
+                    <input type="text" required id="nombre">
+                    <label>Nombre</label>  
+                </div>
+               
+                <div class="username">
+                    <input type="text" required id="nombre">
+                    <label>Apellidos</label>  
+                </div>
+
+                <div class="username">
+                    <input type="text" required id="nombre">
+                    <label>Cédula</label>  
+                </div>
+
+                <div class="username">
+                    <input type="text" required id="nombre">
+                    <label>Edad</label>  
+                </div>
+
+                <div class="username">
+                    <input type="text" required id="nombre">
+                    <label>Sexo</label>  
+                </div>
+
+                <div class="username">
+                    <input type="text" required id="nombre">
+                    <label>Especialidad</label>  
+                </div>
+
+               
+            </form>
+        </div>
+        <script>
+            function registro(){
+                window.location.href='registroclinica.html'
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registropaciente.css">
+    <title>Registro paciente</title>
+</head>
+<body>
+    <div class="head">
+
+        <!--<div class="logo"> -->
+            <a href=""><img src="./img/logo.png" alt="logo iess" width="35%" height="30%"></a>
+        <!--</div>-->
+
+        <nav class="Solici">
+            <a href="">Solicitud de Paciente</a>
+        </nav>
+        <nav class="navbar">
+            
+            <a href="">Inicio</a>
+        </nav>
+
+    </div>
+    <headers>
+        <button type="submit" class= "button" onclick=validar()>Guardar<br></button>
+        <center><h2 class="title">Registrar Paciente</h2></center>
+        <hr>
+    </header>
+    <div class="datos">
+        <strong><p>Nombre:</p>
+        <input type="text" id="nombre" size="80px">
+        <p>Apellido:</p>
+        <input type="text" id="apellido" size="80px">
+        <p>Cédula:</p>
+        <input type="text" id="cedula" size="80px">
+        <p>Edad:</p>
+        <input type="text" id="edad" size="80px">
+        <p>Sexo: 
+            <select name="sexo" height="60px">
+                <option></option>
+                <option>Masculino</option>
+                <option>Femenino</option>
+                <option>Otro</option>
+            </select>
+         </p>
+        <p>Relación Afiliado:</p>
+        <input type="text" id="relacion" size="80px"><br><br><br></strong>
+
+    </div>
+    <hr><br>
+    <script>
+        function validar(){
+            window.location.href='gestionpacientes.html'
+        }
+    </script>
+</body>
+</html>

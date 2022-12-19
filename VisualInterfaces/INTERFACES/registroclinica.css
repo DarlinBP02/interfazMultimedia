@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 550;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+    width: 100%;
+    height: 100%;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #0048ff;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.INPUT-1{
+    font-size: 24px;
+    background-color: #a7a6a6;
+    text-align: center;
+    font-style: oblique;
+    margin-top: 63.5px;
+    margin-left: -990px;
+    width: 500px;
+    height: 50px;
+}
+
+.Data-Clinica{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 100%;
+    height: 200px;
+   
+    
+}
+
+.h2-1{
+    margin-left: -1170px;
+    font-size: 24px;
+    font-style: oblique;
+}
+
+.Data-Clinica input{
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.input-nivel{
+    margin-left: -900px;
+    font-size: 21px;
+}
+
+.input-direccion{
+    margin-top: -25px;
+    margin-left: 300px;
+    font-size: 18px;
+}
+
+.input-direccion input{
+    text-align: center;
+    width: 500px;
+}
+
+
+.input-correo{
+    margin-left: -520px;
+    font-size: 21px;
+}
+
+.input-correo input{
+    text-align: center;
+    width: 400px;
+}
+
+.input-phone{
+    margin-left: -830px;
+    font-size: 21px;
+}
+
+.input-phone input{
+    text-align: center;
+    width: 300px;
+}
+
+
+.h2-2{
+    margin-left: -1060px;
+    font-size: 24px;
+    font-style: oblique;
+}
+
+
+.Trabajador-1{
+    margin-left: -1050px;
+}
+
+.Trabajador-1 img{
+    width: 100px;
+}
+
+
+.Trabajador-2{
+    margin-top: -140px;
+    margin-left: -500px;
+}
+
+.Trabajador-2 img{
+    width: 100px;
+}
+
+
+.Trabajador-3{
+    margin-top: -140px;
+    margin-left: 140px;
+}
+
+.Trabajador-3 img{
+    width: 100px;
+}
+
+
+.Trabajador-4{
+    margin-top: -140px;
+    margin-left: 700px;
+}
+
+.Trabajador-4 img{
+    width: 100px;
+}
+.Submit{
+    margin-top: 70px;
+    display:flex;
+    justify-content: left;
+    align-items:center;
+    height: 40px !important;
+    margin-left: 0px;
+    background: #729dd8;
+    font-size: 25px;
+}

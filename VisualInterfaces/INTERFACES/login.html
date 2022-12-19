@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="head">
+        <!--<div class="logo"> -->
+            <a href="login.html"><img src="./img/logo.png" alt="logo iess" width="35%" height="30%"></a>
+        <!--</div>-->
+        <nav class="navbar">
+            <div>
+                <a href=".html">Inicio</a>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <div class="contenido-login">
+        <br>
+        <img src="https://assets.stickpng.com/thumbs/585e4bf3cb11b227491c339a.png" alt="">
+        <br>
+        <br>
+        <div class="input-name">
+            <label for="name">NOMBRE</label>
+            <input type="text" name="" id="name">
+        </div>
+        <br>
+        <br>
+        <div class="input-email">
+            <label for="correo">EMAIL</label>
+            <input type="email" name="" id="correo">
+        </div>
+        <br>
+        <br>
+        <div class="input-clave">
+            <label for="clave">CONTRASEÑA</label>
+            <input type="password" name="" id="clave">
+        </div>
+        <br>
+        <p>¿Desea cambiar su contraseña? <a class="link" href="cambiocontraseña.html">Cambiar</a></p>            
+        <br>
+        <input class="Submit" type="submit" name="" value="ENTRAR" onclick=inicio()>
+
+    </div>
+    <script>
+        function inicio(){
+            window.location.href='menu.html'
+        }
+    </script>
+</body>
+</html>

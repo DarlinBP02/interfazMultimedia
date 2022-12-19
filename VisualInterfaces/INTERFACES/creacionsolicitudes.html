@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="creacionsolicitudes.css">
+    <title>Creación de Solicitudes</title>
+</head>
+<body>
+    <div class="head">
+
+        <!--<div class="logo"> -->
+            <a href="creacionsolicitudes.html"><img src="./img/logo.png" alt="logo iess" width="35%" height="30%"></a>
+        <!--</div>-->
+        <nav class="navbar">
+            <a href="">Inicio</a>
+        </nav>
+    </div>
+
+    <headers>
+        <center><h2 class="title">CREACIÓN DE SOLICITUDES</h2></center>
+    </header>
+
+    <table class="content-table"> 
+        <thead> 
+            <tr> 
+                <th><input class="botons" type="submit" value="Nueva Solicitud" onclick=nuevasoli()></th>
+                 <th>Principal</th> 
+        </thead> 
+             <tbody> 
+                <tr> 
+                    <td>
+                        <img src="./img/correo.png" alt="" width="30%" height="80%">Recibido <br><br> 
+                        <img src="./img/correo.png" alt="" width="30%" height="80%">Destacado <br><br>
+                        <img src="./img/correo.png" alt="" width="30%" height="80%">Propuesto <br> <br> 
+                        <img src="./img/correo.png" alt="" width="30%" height="80%">Enviado <br><br> 
+                        <img src="./img/correo.png" alt="" width="30%" height="80%">Borrador<br><br>
+                    </td>
+                    <td>  
+                        <img src="./img/correo.png" alt="" width="10%" height="30%">Dr.Toala: <input type="text" id="dtoala" size="20px"><br>
+                        <br><img src="./img/correo.png" alt="" width="10%" height="30%">Dr.Torres: <input type="text" id="dtorres" size="20px"><br>
+                        <br><img src="./img/correo.png" alt="" width="10%" height="30%">Dr.Ormaza: <input type="text" id="dormaza" size="20px"><br>
+                    </td>
+                </tr> 
+            </tbody> 
+    </table>
+    <script>
+        function nuevasoli(){
+            window.location.href='solicitudingresada.html'
+        }
+    </script>
+</body>
+</html>

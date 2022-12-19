@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gestion del Sistema</title>
+</head>
+<body>
+    <div class="head">
+
+        <!--<div class="logo"> -->
+            <a href="gestionsistema.html"><img src="./img/logo.png" alt="logo iess" width="35%" height="30%"></a>
+        <!--</div>-->
+
+        <nav class="navbar">
+            <a href="">Inicio</a>
+            <a href="gestionpacientes.html">Gestion de Paciente</a>
+        </nav>
+    </div>
+
+    <header class="content header">
+        <h2 class="title">Gestion del Sistema</h2>
+        <br>
+    </header>
+    
+    <center><table>
+        <thead>
+            <tr>
+                <th>Nombres del Medico</th>
+                <th>Cedula</th>
+                <th>Ip</th>
+                <th>Tiempo cita por paciente</th>
+                <th>Entrada al Sistema</th>
+                <th>Salida del Sistema</th>
+                <th>Buzon</th>
+            </tr>
+        </thead>
+        <tbody>	
+            <tr>
+                <td>Lopez Gonzalez Juan</td>
+                <td>1316689452</td>
+                <td>PC 192.168.0.1</td>
+                <td>15 min</td>
+                <td>07:00 AM</td>
+                <td>13:00 PM</td>
+                <td>Asistio</td>
+            </tr>
+
+        </tbody>
+        <tr>
+            <td>Flores Mendoza Andres</td>
+            <td>1305689421</td>
+            <td>PC 192.168.0.2</td>
+            <td>15 min</td>
+            <td>13:00 PM</td>
+            <td>20:00 PM</td>
+            <td>No Asistio</td>
+        </tr>
+    </table></center>
+    <input class="Submit" type="submit" name="" value="BANDEJA DE SOLICITUDES" onclick=inicio()>
+    <script>
+        function inicio(){
+            window.location.href='creacionsolicitudes.html'
+        }
+    </script>
+</body>
+</html>

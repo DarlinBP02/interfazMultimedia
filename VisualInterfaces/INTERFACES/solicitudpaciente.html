@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="solicitudpaciente.css">
+    <title>Solicitud de Paciente</title>
+</head>
+<body>
+    <div class="head">
+
+        <!--<div class="logo"> -->
+            <a href="solicitudpaciente.html"><img src="./img/logo.png" alt="logo iess" width="35%" height="30%"></a>
+        <!--</div>-->
+
+        <nav class="Solici">
+            <a href="">Solicitud de Paciente</a>
+        </nav>
+        <nav class="navbar">
+            
+            <a href="">Inicio</a>
+        </nav>
+
+    </div>
+    <headers>
+        <center><h2 class="title">Afiliado Titular</h2></center>
+        <hr>
+    </header>
+    <section class="form-register">
+        <p>Cedula:</p>
+        <input class="controls" type="text" name="cedula" id="cedula" placeholder="Ingrese su cedula" size="150px">
+        <p>Apellido:</p>
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+        <p>Nombre:</p>
+        <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre">
+        <p>Sexo:</p>
+        <input class="controls" type="text" name="sexo" id="sexo" placeholder="Ingrese su Sexo">
+        <p>Edad:</p>
+        <input class="controls" type="text" name="edad" id="edad" placeholder="Ingrese su edad">
+        <p>Tipo de Afiliado:</p>
+        <input class="controls" type="text" name="tipo" id="tipo" placeholder="Ingrese el Tipo de Afiliado">
+        <p>Relacion con el cliente:</p>
+        <input class="controls" type="text" name="relacion" id="relacion" placeholder="Ingrese su relacion con el cliente">
+        <button class="botons" type="submit" onclick="validar()">Guardar</button>
+    </section>
+<script>
+    function validar(){
+            //window.location.href='menu.html'
+        }
+</script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+body{
+    background-color: white;
+}
+.head {
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 82px;
+    background: #0048ff;
+    position: flex;
+    width: 100%;
+}
+.logo{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.Solici {
+    display: flex;
+    margin-right: 100px;
+}
+.Solici a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+.navbar a {
+    display: flex;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover {
+    background: #3f3f3f;
+}
+.header {
+    display:flex;
+    justify-content: left;
+    align-items:center;
+    height: 40vh !important;
+}
+.title {
+    margin-top: 00px;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform:initial;
+    color: rgb(6, 6, 6);
+    margin: 20px; 
+}
+.form-register {
+    position: center;
+    margin:center;
+    padding: center;
+    margin-left: 17%;
+    margin-right: 50%;
+    width: 850px;
+    background: #cacaca;
+    border-radius: 10px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 600;
+}
+.controls {
+    width: 95%;
+    margin-left: 10px;
+    background: #c4c4c4;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 13px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 15px;
+    color: rgb(55, 55, 55);
+}
+  
+.form-register p {
+    height: 40px;
+    text-align: left;
+    font-size: 17px;
+    line-height: 40px;
+}
+  
+.form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+  
+H2{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.button{
+    width: 95%;
+    margin-left: 10px;
+    background: #c4c4c4;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 13px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 15px;
+    color: rgb(55, 55, 55);
+}

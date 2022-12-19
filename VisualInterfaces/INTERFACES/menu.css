@@ -1,0 +1,73 @@
+body{
+    background-color: white;
+}
+.head {
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 82px;
+    background: #0048ff;
+    position: flex;
+    width: 100%;
+}
+.logo{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+.navbar a {
+    display: flex;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover {
+    background: #3f3f3f;
+}
+.header {
+    display:flex;
+    justify-content: left;
+    align-items:center;
+    height: 40vh !important;
+}
+.title {
+    margin-top: 00px;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform:initial;
+    color: rgb(6, 6, 6);
+    margin: 20px; 
+}
+.head2 {
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    height: 300px;
+    margin-left: 25%;
+    background: #8f22c1;
+    margin-bottom: auto;
+}
+.nav{
+    margin-left: 200px;
+    border: 2px solid;
+    border-color:rgb(134, 134, 244);
+    background: rgb(134, 134, 244);
+    border-radius: 35px;
+    font-size: 33px;
+    color: rgb(0, 0, 0);
+}
+.nav:hover{
+    border-color: purple;
+    transition: -5s;
+}

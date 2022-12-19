@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(img/fondoClinica.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #6699;
+}
+.head {
+      margin-top: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 82px;
+      background: #0048ff;
+      position: flex;
+      width: 100%;
+}
+.logo{
+      margin-left: 5px;
+      margin-top: 5px;
+}
+  
+.navbar {
+      display: flex;
+      margin-right: 10px;
+}
+.navbar a {
+      display: flex;
+      padding: 20px 20px;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 20px;
+}
+.navbar a:hover {
+      background: #3f3f3f;
+}
+.header {
+      display:flex;
+      justify-content: left;
+      align-items:center;
+      height: 40vh !important;
+}
+  .title {
+      margin-top: 00px;
+      font-size: 30px;
+      font-weight: 600;
+      text-transform:initial;
+      color: rgb(6, 6, 6);
+      margin: 20px; 
+}
+table{
+    border-collapse:collapse;
+    margin: 20px; 
+    margin-left: 25%; 
+}
+th,tr,td{
+	border:1px solid #000;
+	width:160px;
+	height:45px;
+	
+	text-align:center;
+  
+}
+
+
+tr:nth-child(odd) td{
+	background-color:rgb(205, 205, 205);
+}
+.form-register {
+    width: 800px;
+    background: #cacaca;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+
+  .controls {
+    width: 100%;
+    background: #c4c4c4;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(55, 55, 55);
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: left;
+    font-size: 17px;
+    line-height: 40px;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  
+  H2{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+  }
+  .botons {
+    width: 60%;
+    background: #e43af0;
+    border-radius: 40px;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .content-table{
+    border-collapse:collapse;
+    width: 50%;
+  }
+  .content-table th,tr,td{
+	border:1px solid #000;
+	width:150px;
+	height:45px;
+	vertical-align:middle;
+	text-align:left;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.content-table th{
+	color:rgb(0, 0, 0);
+    text-align:center;
+	background-color: #729dd8;
+    font-size: 20px;
+    font-weight: 600;}
+
+.content-table tr:nth-child(odd) td{
+	background-color:rgb(205, 205, 205);
+}

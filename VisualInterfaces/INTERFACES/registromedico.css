@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    height: 100vh;
+}
+.head {
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 82px;
+    background: #0048ff;
+    position: flex;
+    width: 100%;
+}
+.logo{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.Solici {
+    display: flex;
+    margin-right: 100px;
+}
+.Solici a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+.navbar a {
+    display: flex;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.formulario{
+    margin-top: 60px;
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+
+.formulario h3{
+    text-align: right;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.formulario form{
+    text-align: right;
+    padding: 0 20px;
+    box-sizing: border-box white;
+
+}
+
+form .username{
+    position: relative;
+    border-bottom: 2px solid #a3a2a2;
+    margin: 20px 0;
+
+}
+form .contrasena{
+    position: relative;
+    border-bottom: 2px solid #a3a2a2;
+    margin: 20px 0;
+
+}
+
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.contrasena input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.username label{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #a8a8a8;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.contrasena label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #a8a8a8;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.username span::before{
+    content: '';
+    position: center;
+    top: 40px;
+    left: 0;
+    width: 100px;
+    height: 2px;
+    background: rgb(139, 47, 110);
+
+}
+
+.contrasena span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100px;
+    height: 2px;
+    background: rgb(139, 47, 110);
+
+}
+.username input:focus ~ label,
+.username input:focus ~ label{
+
+    text-align: center;
+    top: -1px;
+    color: #6c3483;
+}
+
+.contrasena input:focus ~ label,
+.contrasena input:focus ~ label{
+
+    top: -1px;
+    color: #6c3483;
+}
+
+.username input:focus ~ span::before,
+.username input:focus ~ span::before{
+    position: center;
+    width: 100%;
+}
+
+.recordar{
+    text-align: right;
+    font-size: 13px;
+    position: center;
+    margin: -5px 20px 5px;
+    color: blue;
+    cursor: pointer;
+}
